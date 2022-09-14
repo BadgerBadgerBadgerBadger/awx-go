@@ -301,6 +301,9 @@ type Credential struct {
 	ID               int    `json:"id"`
 	Kind             string `json:"kind"`
 	Name             string `json:"name"`
+	Url              string `json:"url"`
+	Created          string `json:"created"`
+	Modified         string `json:"modified"`
 }
 
 // UnifiedJobTemplate represents the awx api unified job template.
