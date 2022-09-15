@@ -1,4 +1,4 @@
-module github.com/BadgerBadgerBadgerBadger/awx-go
+module github.com/sentiance/awx-go
 
 go 1.12
 
